@@ -205,7 +205,7 @@ h3{
 
 #gallery-display{
     width: calc(100vw - 40vw);
-    max-height: 40rem;
+    max-height: calc((9/5)*width);
     border: solid var(--color-alabaster) 0.125em;
     overflow: hidden;
     display: flex;
@@ -287,8 +287,12 @@ h3{
         padding-left: 1em;
     }
 
-    .split > p, .wide-article>p{
+    .split > p, .wide-article > p{
         font-size: 1em;
+    }
+
+    .wide-article > p{
+        margin-inline: 3em 3em;
     }
 
     #gallery > h2{
@@ -317,6 +321,9 @@ h3{
         min-height: 7rem;
     }
 
+    #gallery-display > img{
+        max-height: 40rem;
+    }
 }
 
 
