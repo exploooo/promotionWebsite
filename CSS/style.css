@@ -91,7 +91,7 @@ h2{
 }
 
 section{
-    padding: 1.5em 0;
+    padding: 1.5em .5em;
     margin: 0;
     max-width: 100%;
 }
@@ -129,7 +129,7 @@ section{
 }
 
 #contact-wrapper > h2{
-    font-weight: 200;
+    font-weight: 400;
     font-size: 1em;
     margin: 1em 0;
     text-align: center;
@@ -192,10 +192,10 @@ h3{
 }
 
 #gallery{
-    min-height: 30vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     overflow: hidden;
 }
@@ -260,7 +260,7 @@ h3{
 
 }
 
-@media(min-width: 500px){
+@media(min-width: 650px){
     h1{
         font-size: 3rem;
     }
